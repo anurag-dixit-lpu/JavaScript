@@ -1,0 +1,468 @@
+.expenses {
+  /*  margin-top: 10px;*/
+  background-color: #0e2b3d;
+  /* color: #FFD700; */
+  /* color:#FF8C00 */
+  color: #ff9999;
+  /* color : #88c999 */
+  /* background-color:#c6ff61;  */
+  /* color: #887576; */
+  /* color: #84a944; */
+  /* #e06c75 , #c678dd */
+}
+
+.scroll-y {
+  max-height: 450px;
+  overflow-y: scroll
+}
+
+.expenses table {
+  /* border: 1px solid lightblue; */
+  /* border-top: none; */
+}
+
+.expenses th, td {
+  padding: 10px 10px 10px 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 0.5pt solid lightblue;
+  border-style: groove;
+  /* border-right: 1px solid lightblue; */
+  /* border-bottom: 1px solid lightblue; */
+  /* font-weight: normal; */
+}
+
+.expenses .my_parent_grid_tr:hover {
+  background-color: #283d05;
+  color: whitesmoke;
+}
+
+.a {
+  border-width: 10px;
+  border-style: solid transparent transparent transparent;
+  border-color: black;
+}
+
+/* CURSOR Shapes */
+
+.alias {
+  cursor: alias;
+}
+
+.all-scroll {
+  cursor: all-scroll;
+}
+
+.auto {
+  cursor: auto;
+}
+
+.cell {
+  cursor: cell;
+}
+
+.context-menu {
+  cursor: context-menu;
+}
+
+.col-resize {
+  cursor: col-resize;
+}
+
+.copy {
+  cursor: copy;
+}
+
+.crosshair {
+  cursor: crosshair;
+}
+
+.default {
+  cursor: default;
+}
+
+.e-resize {
+  cursor: e-resize;
+}
+
+.ew-resize {
+  cursor: ew-resize;
+}
+
+.grab {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.grabbing {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+.help {
+  cursor: help;
+}
+
+.move {
+  cursor: move;
+}
+
+.n-resize {
+  cursor: n-resize;
+}
+
+.ne-resize {
+  cursor: ne-resize;
+}
+
+.nesw-resize {
+  cursor: nesw-resize;
+}
+
+.ns-resize {
+  cursor: ns-resize;
+}
+
+.nw-resize {
+  cursor: nw-resize;
+}
+
+.nwse-resize {
+  cursor: nwse-resize;
+}
+
+.no-drop {
+  cursor: no-drop;
+}
+
+.none {
+  cursor: none;
+}
+
+.not-allowed {
+  cursor: not-allowed;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.progress {
+  cursor: progress;
+}
+
+.row-resize {
+  cursor: row-resize;
+}
+
+.s-resize {
+  cursor: s-resize;
+}
+
+.se-resize {
+  cursor: se-resize;
+}
+
+.sw-resize {
+  cursor: sw-resize;
+}
+
+.text {
+  cursor: text;
+}
+
+.url {
+  cursor: url(myBall.cur), auto;
+}
+
+.w-resize {
+  cursor: w-resize;
+}
+
+.wait {
+  cursor: wait;
+}
+
+.zoom-in {
+  cursor: zoom-in;
+}
+
+.zoom-out {
+  cursor: zoom-out;
+}
+
+#salary_credited {
+  text-align: center;
+  height: 600px;
+  width: inherit;
+  background-color: #0e2b3d;
+}
+
+  #salary_credited svg {
+    height: 100%;
+    width: 100%;
+  }
+
+  #salary_credited .axisLeft path {
+    stroke: white;
+    stroke-width: 0.5pt;
+  }
+
+  #salary_credited line {
+    stroke: gray;
+  }
+
+  #salary_credited path {
+    stroke: gray;
+  }
+
+  #salary_credited text {
+    font-size: 12px;
+    fill: orange;
+  }
+
+  #salary_credited .grid .tick line {
+    stroke: #9FAAAE;
+    stroke-opacity: 0.3;
+  }
+
+  #salary_credited .grid path {
+    stroke-width: 0;
+  }
+
+  #salary_credited .bar {
+    /* fill: #ff814e; */
+    fill: lightslategrey
+  }
+
+  #salary_credited line#limit {
+    stroke: #FED966;
+    stroke-width: 3;
+    stroke-dasharray: 1.5 6;
+  }
+
+  #salary_credited .grid path {
+    stroke-width: 0;
+  }
+
+  #salary_credited .grid .tick line {
+    stroke: #9FAAAE;
+    stroke-opacity: 0.3;
+  }
+
+  #salary_credited text.divergence {
+    font-size: 14px;
+    fill: #fff;
+  }
+
+  #salary_credited text.value {
+    font-size: 14px;
+  }
+
+  #salary_credited text.title {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  #salary_credited text.label {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  #salary_credited text.source {
+    font-size: 10px;
+  }
+
+#salary_remaining {
+  text-align: center;
+  height: 600px;
+  width: inherit;
+  background-color: #0e2b3d;
+}
+
+  #salary_remaining svg {
+    height: 100%;
+    width: 100%;
+  }
+
+  #salary_remaining .axisLeft path {
+    stroke: white;
+    stroke-width: 0.5pt;
+  }
+
+  #salary_remaining .seperatorLine path {
+    stroke: white;
+    stroke-width: 0.5pt;
+  }
+
+  #salary_remaining .axisBottom path {
+    stroke: white;
+    stroke-width: 0.5pt;
+  }
+
+  #salary_remaining line {
+    stroke: gray;
+  }
+
+  #salary_remaining path {
+    stroke: gray;
+  }
+
+  #salary_remaining text {
+    font-size: 12px;
+    fill: orange;
+  }
+
+  #salary_remaining .grid .tick line {
+    stroke: #9FAAAE;
+    stroke-opacity: 0.3;
+  }
+
+  #salary_remaining .grid path {
+    stroke-width: 0;
+  }
+
+  #salary_remaining .bar {
+    /* fill: #ff814e; */
+    /* fill: lightslategrey */
+  }
+
+  #salary_remaining line#limit {
+    stroke: #FED966;
+    stroke-width: 3;
+    stroke-dasharray: 1.5 6;
+  }
+
+  #salary_remaining .grid path {
+    stroke-width: 0;
+  }
+
+  #salary_remaining .grid .tick line {
+    stroke: #9FAAAE;
+    stroke-opacity: 0.3;
+  }
+
+  #salary_remaining text.divergence {
+    font-size: 14px;
+    fill: #fff;
+  }
+
+  #salary_remaining text.value {
+    font-size: 14px;
+  }
+
+  #salary_remaining text.title {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  #salary_remaining text.label {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  #salary_remaining text.source {
+    font-size: 10px;
+  }
+
+
+
+#categories_wise_expense {
+  margin: 0px;
+  text-align: center;
+  height: 650px;
+  width: inherit;
+  min-width: 1100px;
+  background-color: #0e2b3d;
+}
+
+  #categories_wise_expense svg {
+    height: 100%;
+    width: 100%;
+  }
+
+  #categories_wise_expense .axisLeft path {
+    stroke: white;
+    stroke-width: 0.5pt;
+  }
+
+  #categories_wise_expense .seperatorLine path {
+    stroke: white;
+    stroke-width: 0.5pt;
+  }
+
+  #categories_wise_expense .axisBottom path {
+    stroke: white;
+    stroke-width: 0.5pt;
+  }
+
+  #categories_wise_expense line {
+    stroke: gray;
+  }
+
+  #categories_wise_expense path {
+    stroke: gray;
+  }
+
+  #categories_wise_expense text {
+    font-size: 12px;
+    fill: orange;
+  }
+
+  #categories_wise_expense .grid .tick line {
+    stroke: #9FAAAE;
+    stroke-opacity: 0.3;
+  }
+
+  #categories_wise_expense .grid path {
+    stroke-width: 0;
+  }
+
+  #categories_wise_expense .bar {
+    /* fill: #ff814e; */
+    fill: cadetblue
+  }
+
+  #categories_wise_expense line#limit {
+    stroke: #FED966;
+    stroke-width: 3;
+    stroke-dasharray: 1.5 6;
+  }
+
+  #categories_wise_expense .grid path {
+    stroke-width: 0;
+  }
+
+  #categories_wise_expense .grid .tick line {
+    stroke: #9FAAAE;
+    stroke-opacity: 0.3;
+  }
+
+  #categories_wise_expense text.divergence {
+    font-size: 14px;
+    fill: #fff;
+  }
+
+  #categories_wise_expense text.value {
+    font-size: 14px;
+  }
+
+  #categories_wise_expense text.title {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  #categories_wise_expense text.label {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  #categories_wise_expense text.source {
+    font-size: 10px;
+  }
+
+  #categories_wise_expense .axisBottom text {
+    color: white;
+    text-decoration-line: underline;
+    font-size: larger
+  }
